@@ -1,0 +1,340 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 10%;
+  border-bottom: 2px solid rgb(228, 228, 228);
+  /* box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07); */
+}
+
+
+.nav_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.icons {
+  font-size: 23px;
+  color: rgb(154, 154, 154);
+}
+
+.icons:hover{
+color: black;
+cursor: pointer;
+}
+
+.membership {
+  background-color: transparent;
+  border: 1px solid black;
+  padding-inline: 15px;
+  padding-block: 5px;
+  border-radius: 20px;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+.button:hover,
+.topic:hover,
+.topics_container span:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.profile {
+  background-color: rgb(244, 81, 30);
+  border-radius: 50%;
+  font-size: 30px;
+  padding: 2px;
+  color: white;
+}
+
+.resized_pic:hover, 
+.profile_pic:hover,
+.profile:hover,
+img{
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  margin-inline: 10%;
+}
+
+.left_side {
+  border-right: 1px solid rgb(228, 228, 228);
+  padding-top: 50px;
+  padding-right: 50px;
+  width: 70%;
+}
+
+.pages {
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 35px;
+  margin-bottom: 70px;
+  font-weight: bold;
+  color: gray;
+  position: relative;
+}
+
+.following {
+  position: absolute;
+  padding-inline: 5px;
+}
+
+.recommended {
+  position: absolute;
+  left: 120px;
+  padding-inline: 5px;
+}
+
+.section:hover {
+  color: black;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  padding-bottom: 14px;
+  position: absolute;
+}
+
+.news {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.profile_name{
+  margin-block: 10px;
+}
+
+.text_sections{
+  width: 100%;
+}
+
+h1 {
+  font-size: 20pt;
+  margin-block: 0px;
+}
+
+h1:hover, 
+h4:hover,
+.profile_name:hover,
+.saved_container span:hover,
+.link:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.img_news {
+  width: 220px;
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.autor {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+
+.in_text{
+  color: rgb(120, 120, 120);
+  margin-inline: 3px;
+}
+
+.resized_pic {
+  width: 15px;
+  background-color: rgb(45, 60, 73);
+  padding: 7px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: rgba(0, 255, 255, 0.714);
+}
+
+.text_preview {
+  font-size: 16pt;
+  color: rgb(109, 109, 109);
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.news_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.data {
+  font-size: 13pt;
+  color: rgb(109, 109, 109);
+  margin-top: 0px;
+}
+
+.topic {
+  background-color: rgb(242, 242, 242);
+  padding-block: 5px;
+  padding-inline: 10px;
+  border-radius: 20px;
+}
+
+.data_icon {
+  font-size: 22pt;
+  color: grey;
+  margin-right: 10px;
+}
+
+.data_icon:hover,
+.later:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.right_side {
+  padding-top: 50px;
+  padding-left: 50px;
+  width: 30%;
+}
+
+.twitter_connect {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 14pt;
+}
+
+.icons_connect {
+  font-size: 22pt;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.plus_symbol {
+  color: rgb(144, 144, 144);
+}
+
+.logo_twitter_1 {
+  color: rgb(55, 161, 242);
+}
+
+.logo_twitter_2 {
+  font-size: 22pt;
+  margin-right: 10px;
+  color: rgb(84, 172, 238);
+}
+
+.connect {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(165, 165, 165);
+  border-radius: 40px;
+  background-color: transparent;
+  font-size: 12pt;
+  padding-block: 5px;
+  padding-inline: 20px;
+  margin-block: 20px;
+}
+
+.later {
+  font-size: 12pt;
+  text-decoration: underline;
+  color: rgb(136, 136, 136);
+  margin-top: 0px;
+}
+
+
+.topics_container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+
+.topics_container span {
+  background-color: rgb(242, 242, 242);
+  padding-block: 10px;
+  padding-inline: 15px;
+  border-radius: 20px;
+}
+
+
+.profiles {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile_container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profile_pic {
+  font-size: 60px;
+  min-width: 60px;
+  color: white;
+  background-color: rgb(179, 0, 255);
+  border-radius: 50%;
+}
+
+.profile_info h4,
+.profile_info p {
+  margin-block: 5px;
+}
+
+.profile_info h4 {
+  font-size: 14pt;
+}
+
+.profile_info p {
+  color: rgb(132, 132, 132);
+}
+
+.follow {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 30px;
+  padding-block: 5px;
+  padding-inline: 15px;
+  font-size: 12pt;
+  margin-left: 20px;
+}
+
+.saved_container{
+  margin-top: 60px;
+}
+
+
+.saved_container span{
+  color: rgb(0, 187, 0);
+}
+
+.saved_post h4{
+  margin-block: 5px;
+  font-size: 14pt;
+  margin-block: 0px;
+}
+
+.saved_post{
+  margin-bottom: 30px;
+}
+
+.more_section{
+margin-block: 80px;
+color: rgb(133, 133, 134);
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
