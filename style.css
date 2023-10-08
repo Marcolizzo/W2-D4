@@ -7,8 +7,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding-inline: 10%;
-  border-bottom: 2px solid rgb(228, 228, 228);
-  /* box-shadow: 0px -4px 11px 7px rgba(0, 0, 0, 0.07); */
+  box-shadow: 0px 4px 10px -5px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -289,17 +288,14 @@ h4:hover,
   border-radius: 50%;
 }
 
-.profile_info h4,
-.profile_info p {
-  margin-block: 5px;
-}
-
 .profile_info h4 {
   font-size: 14pt;
+  margin-block: 5px;
 }
 
 .profile_info p {
   color: rgb(132, 132, 132);
+  margin-block: 5px;
 }
 
 .follow {
